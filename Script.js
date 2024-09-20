@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     document.getElementById('hamburger').addEventListener('click', function() {
-        const menu = document.querySelector('☰ Menü');
+        const menu = document.querySelector('hamburger');
         menu.classList.toggle('active');
     });
 
