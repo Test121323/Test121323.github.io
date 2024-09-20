@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 500); 
     }
 
-    const hamburgerMenu = document.getElementById('☰ Menü');
+    const hamburgerMenu = document.getElementById('hamburger');
     hamburgerMenu.addEventListener('click', function() {
         hamburgerMenu.classList.toggle('active');
     });
