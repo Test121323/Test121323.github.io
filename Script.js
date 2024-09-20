@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 500); 
     }
 
-    document.getElementById('hamburger').addEventListener('click', function() {
-        const menu = document.querySelector('hamburger');
-        menu.classList.toggle('active');
+    const hamburgerMenu = document.getElementById('hamburger');
+    hamburgerMenu.addEventListener('click', function() {
+        hamburgerMenu.classList.toggle('active');
     });
 
     document.querySelectorAll('.menu-options button').forEach(button => {
